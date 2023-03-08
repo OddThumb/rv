@@ -1,5 +1,6 @@
 # rv
-Just like ["***fv***"](https://heasarc.gsfc.nasa.gov/ftools/fv/) from *ftools* (NASA).
+Just like ["***fv***"](https://heasarc.gsfc.nasa.gov/ftools/fv/) from *ftools*.
+Still developing... Thank You.
 ## Description
 viewer app for table data powered by [Shiny](https://shiny.rstudio.com) and [Plotly](https://plotly.com/r/) using [`R`](https://www.r-project.org). This app can handle `csv`, `tsv`, `fits` (table only) data, with multiple files. Not only it can show the table content itself, but also is possible to summarize information of columns and show a simple plot, interactively. 
 
