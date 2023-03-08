@@ -45,4 +45,6 @@ export PATH="/some/rv/directory/:$PATH"
 3. Selecting rows for plots
 4. Fixing plot features with rigorous code
 5. Treating `NA` values with choice (inclusion/exclusion)
-6. Any suggestion?
+6. Invert button selection of columns
+7. Select ALL / Deslect ALL buttons
+7. Any suggestion?
