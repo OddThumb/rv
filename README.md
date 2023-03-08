@@ -6,9 +6,9 @@ Viewer app for table data. This app can handle csv, tsv, fits data. Not only it 
 ## Usage
 ```
 # In terminal,
-$ rv data1.csv
-$ rv data2.fits
-$ rv data1.csv data2.fits
+$ rv iris.csv
+$ rv btable.fits
+$ rv iris.csv btable.fits
 ```
 
 ## Installation
