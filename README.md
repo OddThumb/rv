@@ -1,7 +1,7 @@
 # rv
-Just like "***fv***" from *ftools* (NASA).
+Just like ["***fv***"](https://heasarc.gsfc.nasa.gov/ftools/fv/) from *ftools* (NASA).
 ## Description
-Viewer app for table data powered by Shiny and Plotly in `R`. This app can handle csv, tsv, fits data. Not only it can show the table contents itself, but also is possible to summarize information of the column and plot, interactively. 
+Viewer app for table data powered by [Shiny](https://shiny.rstudio.com) and [Plotly](https://plotly.com/r/) using [`R`](https://www.r-project.org). This app can handle `csv`, `tsv`, `fits` (table only) data. Not only it can show the table content itself, but also is possible to summarize information of columns and show a simple plot, interactively. 
 
 ## Usage
 ```
