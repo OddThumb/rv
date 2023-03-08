@@ -41,10 +41,11 @@ export PATH="/some/rv/directory/:$PATH"
 
 ## Future work
 1. Manipulating contents in table
-2. Filtering columns by `dplyr` family
-3. Selecting rows for plots
-4. Fixing plot features with rigorous code
-5. Treating `NA` values with choice (inclusion/exclusion)
-6. Invert button selection of columns
-7. Select ALL / Deslect ALL buttons
-7. Any suggestion?
+2. Operation on columns (e.g. Log10)
+3. Filtering columns by `dplyr` family
+4. Selecting rows for plots
+5. Fixing plot features with rigorous code
+6. Treating `NA` values with choice (inclusion/exclusion)
+7. Invert button selection of columns
+8. Select ALL / Deslect ALL buttons
+9. Any suggestion?
