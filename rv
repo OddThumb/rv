@@ -12,11 +12,7 @@ sapply(packages, require, character.only=T, quietly=T)
 read_fits <- function(file) {
     fits <- FITSio::readFITS(as.character(file))
     names(fits$col) <- fits$colNames
-    Rpos <- which(names(fits$col)=="R")
-    bind_cols(fits$col[1:(Rpos-1)],
-              fits$col$R %>% `colnames<-`(c("R1","R2")),
-              fits$col[(Rpos+1):length(fits$col)]) %>% 
-        distinct(COMPONENT, .keep_all = T)
+    bind_cols(fits$col)
 }
 
 resolve.table <- function(file) {
