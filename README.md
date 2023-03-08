@@ -1,7 +1,7 @@
 # rv
-
+Just like "***fv***" from *ftools* (NASA).
 ## Description
-Viewer app for table data. This app can handle csv, tsv, fits data. Not only it can show the table contents itself, but also is possible to summarize information of the column and plot, interactively.
+Viewer app for table data powered by Shiny and Plotly in `R`. This app can handle csv, tsv, fits data. Not only it can show the table contents itself, but also is possible to summarize information of the column and plot, interactively. 
 
 ## Usage
 ```
@@ -12,6 +12,7 @@ $ rv iris.csv btable.fits
 ```
 
 ## Installation
+> 
 1. Download into `"/some/rv/directory/"`
 2. In your shell environment, add the path such as:
 
