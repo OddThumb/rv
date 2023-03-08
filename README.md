@@ -9,9 +9,9 @@ You can test with sample data `iris.csv` and `btable.fits`.
 
 ```
 # In terminal,
-$ rv iris.csv
-$ rv btable.fits
-$ rv iris.csv btable.fits (open multiple files)
+$ rv dataset/iris.csv
+$ rv dataset/btable.fits
+$ rv dataset/iris.csv dataset/btable.fits (open multiple files)
 ```
 
 ## Installation
