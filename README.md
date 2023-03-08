@@ -38,3 +38,11 @@ export PATH="/some/rv/directory/:$PATH"
 ![csv example](./example_figs/fits_man.png)
 ![csv example](./example_figs/fits_summ.png)
 ![csv example](./example_figs/fits_plot.png)
+
+## Future work
+1. Manipulating contents in table
+2. Filtering columns by `dplyr` family
+3. Selecting rows for plots
+4. Fixing plot features with rigorous code
+5. Treating `NA` values with choice (inclusion/exclusion)
+6. Any suggestion?
